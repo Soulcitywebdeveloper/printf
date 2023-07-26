@@ -6,7 +6,7 @@
  * _printf - function that produces output according to a format.
  * @format: character string with the format to print.
  *
- * Return: the number of characters printed (excluding the null byte used to end output to strings).
+ * Return: the num of characters printed
  */
 int _printf(const char *format, ...)
 {
@@ -48,10 +48,7 @@ int _printf(const char *format, ...)
 			i++;
 		}
 	}
-
-	/* clean up variable list */
 	va_end(arglist);
-
 	return (count);
 }
 
