@@ -7,7 +7,7 @@
  *
  * Return: The number of characters printed
  */
-int my_printf(const char *format, int num)
+int handle(const char *format, int num)
 {
 	int count = 0;
 
