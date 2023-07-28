@@ -7,4 +7,5 @@
 int _printf(const char *format, ...);
 int _putchar(char c);
 int _puts(char *str);
+int my_printf(const char *format, int num);
 #endif
