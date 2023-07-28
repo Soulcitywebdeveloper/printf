@@ -55,7 +55,7 @@ int _printf(const char *format, ...)
 
 /**
  * _putchar - function to print a character.
- * @c: character to print.
+i * @c: character to print.
  *
  * Return: 1 on success, -1 on error.
  */
